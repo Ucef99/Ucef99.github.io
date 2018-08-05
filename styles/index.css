@@ -3,9 +3,6 @@ body {
     overflow-x: hidden;
     background-color: #f2f2f2;
 }
-/* img {
-    border: 2px solid;
-} */
 
 .w-100 {
     width: 100%;
@@ -28,10 +25,8 @@ label {
     line-height: 1.5;
     color: #495057;
     background-color: #fff;
-    background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: .25rem;
-    /* transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; */
 }
 
 .text-muted {
@@ -42,29 +37,16 @@ label {
     margin-top: .25rem;
 }
 
-/* .form-check {
-    position: relative;
-    display: block;
-    padding-left: 1.25rem;
-} */
-
 .btn {
     display: inline-block;
     cursor: pointer;
     font-weight: 400;
     text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
     border: 1px solid transparent;
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
     border-radius: .25rem;
-    /* transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; */
 }
 
 .btn-primary {
@@ -113,11 +95,8 @@ header {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.5px;
-    /* line-height: 29px; */
-    /* margin-right: 21px; */
     text-transform: uppercase;
     display: block;
-    /* padding: 12px 0; */
     text-decoration: none;
 }
 
@@ -154,11 +133,8 @@ footer {
     min-height: 212px;
     position: relative;
     bottom: 0;
+    margin-top: 60px;
 }
-
-/* .col-footer {
-    position: relative;
-} */
 
 .main-footer {
     margin: 0 200px;
@@ -184,7 +160,7 @@ footer {
 }
   
 .youtube-image:hover {
-background-image:url("../images/youtube-red-circle.png");
+    background-image:url("../images/youtube-red-circle.png");
 }
 
 .follow-us {
@@ -194,7 +170,6 @@ background-image:url("../images/youtube-red-circle.png");
 }
 
 .facebook-image {
-    /* margin:0 auto; */
     width:40px;
     height:40px;
     position: absolute;
@@ -212,7 +187,6 @@ background-image:url("../images/youtube-red-circle.png");
 }
 
 .linkedin-image {
-    /* margin:0 auto; */
     width:40px;
     height:40px;
     position: absolute;
@@ -254,10 +228,6 @@ background-image:url("../images/youtube-red-circle.png");
     bottom: 10px;
 }
 
-/*
-about section
-*/
-
 .view {
     background-color: white;
     padding: 40px 100px;
@@ -284,10 +254,6 @@ about section
 .d-flex .w-40 p {
     text-align: left;
 }
-
-/*
-News Section
-*/
 
 .news-container {
     width: 80%;
