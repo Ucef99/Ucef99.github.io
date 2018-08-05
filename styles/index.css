@@ -104,8 +104,8 @@ header {
     color: turquoise;
 }
 
-.menu a:active {
-    color: turquoise;
+.active {
+    color: turquoise !important;
 }
 
 .menu img {
@@ -321,4 +321,13 @@ footer {
     position: relative;
     left: 44%;
     bottom: -18px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.heading {
+    font-size: 40px;
+    color: #377964;
 }
