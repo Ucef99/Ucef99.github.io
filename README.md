@@ -3,4 +3,4 @@
 #### Shady > Home page - Food page - Rooms page
 
 ### Direct Link 
-https://Ucef99.github.io/
+https://ucef99.github.io
